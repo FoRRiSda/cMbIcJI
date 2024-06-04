@@ -1,0 +1,130 @@
+* {
+  font-family: "Tahoma";
+  /*border: 1px solid red;*/
+}
+html {
+  background-color: #2c2c2c;
+  color: #d1d7e0;
+  margin-right: 100px;
+  margin-left: 30px;
+  scroll-behavior: smooth;
+}
+.container {
+  position: relative;
+}
+.btn-up {
+  display: block;
+  position: sticky;
+  bottom: 30;
+  right: 30;
+  font-size: 44px;
+  color: #ff621e;
+}
+.zagolovok {
+  display: grid;
+  margin: 1px;
+  font-family: "Century Gothic";
+  font-size: 70px;
+  text-align: left;
+  padding: 15px;
+  column-gap: 20px;
+  color: #ff621e;
+}
+.sost_git {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 1.25;
+  margin-top: 5px;
+  margin-right: 20px;
+  float: left;
+  border-bottom: solid #4d4c4c;
+  margin-bottom: 20px;
+}
+.klassika,
+.img_acstc {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.not {
+  list-style-type: none;
+}
+.for_start {
+  margin-left: 50px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.vidi_gitar,
+.forms_classic,
+.acoustic,
+.wiew_acoustic,
+.not,
+.electruha,
+.bass,
+.wiew_bas {
+  font-size: 18px;
+  line-height: 1.25;
+}
+.kartinka {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.reverse {
+  flex-direction: column;
+  text-align: center;
+  color: inherit;
+}
+.container {
+  width: 968px;
+  margin: 0 auto;
+  color: #d1d7e0;
+}
+.podz {
+  font-family: "Century Gothic";
+  display: grid;
+  margin-top: 10px;
+}
+.kartinka_form {
+  float: left;
+  margin-right: 20px;
+}
+.acoustic {
+  margin-top: 30px;
+}
+.forms_classic,
+.wiew_electro {
+  border-bottom: solid #4d4c4c;
+  margin-bottom: 20px;
+}
+.yes {
+  margin-left: 0%;
+}
+
+ul {
+  line-height: 1.35;
+}
+
+.oglav {
+  border: 2px solid #4d4c4c;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+footer {
+  background-color: #1d1d1d;
+  text-align: center;
+  color: #d1d7e0;
+}
+

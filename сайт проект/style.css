@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma", sans-serif;
+  /*border: 1px solid red;*/
+}
+html {
+  background-color: #2c2c2c;
+}
+.container {
+  width: 968px;
+  margin: 0 auto;
+  color: #d1d7e0;
+}
+main h3 {
+  float: left;
+}
+header {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.zagolovok {
+  display: grid;
+  margin: 5px;
+  font-family: "Century Gothic";
+  font-size: 90px;
+  text-align: left;
+  padding: 15px;
+  column-gap: 20px;
+  color: #ee7828;
+}
+ul {
+  list-style-type: none;
+}
+.podz,
+footer {
+  font-family: "Century Gothic";
+  display: grid;
+  color: #d1d7e0;
+}
+.soderz {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.vidi_gitar:hover .vidbl {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+img {
+  float: center;
+  margin: 10px;
+}
+footer {
+  background-color: #1d1d1d;
+  text-align: center;
+}
+.electronica:hover .electronica_img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.pribludbl:hover .aksesuarbl {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.yhazivanie:hover .yhod {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}

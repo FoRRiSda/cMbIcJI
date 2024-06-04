@@ -1,0 +1,79 @@
+* {
+  font-family: "Tahoma";
+  /*border: 1px solid red;*/
+}
+html {
+  background-color: #2c2c2c;
+  color: #d1d7e0;
+  margin-right: 100px;
+  margin-left: 30px;
+  line-height: 1.35;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+.zagolovok {
+  display: grid;
+  margin: 1px;
+  font-family: "Century Gothic";
+  font-size: 70px;
+  text-align: left;
+  padding: 15px;
+  column-gap: 20px;
+  color: #ff621e;
+}
+.not {
+  list-style-type: none;
+}
+.reverse {
+  flex-direction: column;
+  text-align: center;
+  color: inherit;
+}
+.wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.container {
+  width: 968px;
+  margin: 0 auto;
+  color: #d1d7e0;
+}
+.podz {
+  font-family: "Century Gothic";
+  display: grid;
+  margin-top: 10px;
+}
+.oglav {
+  border: 2px solid #4d4c4c;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+i {
+  color: #ff621e;
+}
+.left-side {
+  width: 33.33%;
+}
+.right-side {
+  width: 66.66%;
+}
+.case,
+.derzateli,
+.clear, .grif {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 1.25;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+footer {
+  background-color: #1d1d1d;
+  text-align: center;
+  color: #d1d7e0;
+}
